@@ -1,0 +1,73 @@
+*{
+    background-color: #313131;
+    color: white;
+}
+
+
+.header{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toDoListHeading{
+    background-color: inherit;
+}
+
+.input{
+    display: flex;
+    background-color: inherit;
+    margin-bottom: 0.14rem;
+}
+
+.inputPlaceholder{
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    /* border-radius: 4%; */
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+}
+.enterButton{
+    font-size: 1rem;
+    color: black;
+    background-color: pink;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+
+
+.listbox{
+    display: flex;
+    justify-content: center;
+    border: solid 2px rgb(87, 71, 71);
+}
+
+.listItems{
+    border: solid 2px grey;
+    margin-bottom: 0.2rem;
+    padding: 0.2rem;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list li{
+    border: solid 2px grey;
+    padding: 0.3rem;
+    border-radius: 5%;
+    margin-bottom: 0.1rem;
+}
+
+.strikeTh{
+    text-decoration: line-through;
+    border: solid 2px grey;
+    margin-bottom: 0.2rem;
+    padding: 0.2rem;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
