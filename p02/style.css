@@ -1,0 +1,13 @@
+*{
+    background-color: #313131;
+    color: whitesmoke;
+}
+
+#fetchButton{
+    background-color: rgba(216, 188, 151, 0.797);
+    color: #313131;
+}
+
+.ddiv{
+    display: flex;
+}
